@@ -4,9 +4,11 @@ var app=new Vue({
         array:[],
     },
     created() {
-        axios.get('file:///C:/MAMP/htdocs/PHP/php-ajax-dischi/milestone2/api.php')
+        axios.get('http://localhost/PHP/php-ajax-dischi/milestone2/api/api.php')
         .then((res)=>{
-            console.log(res)
+            console.log(res.data)
+            this.array=res.data
+            console.log(this.array)
         })
     },
 })
