@@ -1,3 +1,16 @@
+.carta{
+    background-color: #2e3a46;
+}
+.sfondo2{
+   background-color: #1e2d3b;
+    
+}
+h4,
+p,
+span{
+    color: white;
+}
+
 .logo{
     height: 50px;
 }

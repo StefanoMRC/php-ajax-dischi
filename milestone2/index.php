@@ -15,7 +15,7 @@
     <div id="app">
         <div class='container'>
             <div class='row row-cols-6' >
-                <div class="text-center col mx-3 my-3 p-3" v-for="element in array">
+                <div class="text-center col mx-3 my-3 p-3 carta" v-for="element in array">
                     <img :src='element.poster' alt="" class="img-fluid">
                     <h4 class="text-uppercase mt-3">{{element.title}}</h4>
                     <p>{{element.author}}</p>
